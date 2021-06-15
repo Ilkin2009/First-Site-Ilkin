@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="STYLE FORM.css">
+	<title>PAGE 4</title>
+</head>
+<body>
+<form>
+<h1> Анкета ученика: </h1>
+	<fieldset>
+		<legend> Контактная информация </legend>
+		<input type="text" placeholder="Ваше имя" required="required"> <br>
+		<input type="text" placeholder="Ваш номер телефона" required="required"> <br>
+		<input type="email" placeholder="email@gmail.com" required="required"> <br>
+	</fieldset>
+	<fieldset>
+		<legend> Личная информация </legend>
+		<label for="age"> Ваш возраст</label>
+		<input id="age" type="number" required="required">
+		<label for="date"> Дата рождения </label>
+		<input id="date" type="date" required="required">
+		<label> Какой курс вы изучаете? </label>
+		<select required="required">
+			<option> Scratch </option> 
+			<option> Python </option>
+			<option> Web </option>
+			<option> c++ </option>
+			<option> Unity </option>
+			<option> Figma </option>
+		</select>
+	</fieldset>
+	<fieldset>
+		<legend> Обратная связь </legend>
+		<label> Посоветуете вы нашу школу друзьям? </label>
+		<input type="radio" name="feedback"  required="required">
+		<label class="radio"> Да </label>
+		<input type="radio" name="feedback" required="required">
+		<label class="radio"> Конечно </label>
+		<input type="radio" name="feedback" required="required">
+		<label class="radio"> Я подумаю... </label>
+		<label> Оставте комментарий </label>
+		<textarea></textarea>
+	</fieldset>
+	<input type="checkbox" required="required">
+	<label class="box"> Разрешить обработку данных? </label>
+	<input type="checkbox" >
+	<label class="box"> Отправлять новости на почту </label>
+	<input type="submit">
+	<a href="PAGE.html"> Главная</a>
+</form>
+</body>
+</html>
