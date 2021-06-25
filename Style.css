@@ -1,57 +1,27 @@
-img {
-	width: 200px;
-	height: 250px;
-}
-div {
-	background-color: #DDA0DD;
-	width: 200px;
-	display: inline-block;
-	text-align: center;
-	border: 10px #800080 double;
-	margin: 20px 10px;
-	padding: 10px 20px 5px;
-	height: 450px;
-	vertical-align: middle;
-}
-h2 {
-	color: #8B008B;
-	font-family: "comic sans ms";
-	height: 70px
+.style01 {
+	background-color: black;
+	border: double white 15px;
+	color: white;
 }
 a {
-	font-family: "comic sans ms";
-	margin-top: 10px;
-	display:block;
-	background-color: #C71585;
-	color: white;
-	padding: 10px;
-	transition: 1s;
-	text-decoration: none;
-}
-h1 {
-	font-family: "impact";
-	color: #8B008B;
-	font-size: 120px;
-}
-a:hover {
-	background-color: #8B0000;
-	transition: 1s;
-}
-a:active {
-	background-color: red;
+	background-color: white;
+	border: double black 2px;
+	color: black;
 	transition: 0.5s;
+	text-decoration: none;
+	margin: 10px;
 }
 body {
-	background-image: url("Images/Фон.jpg");
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-	text-align: center;
+	background-color: grey;
 }
-.block1 {
-	position: fixed;
-	bottom: 10px;
-	left: 10px;
-	padding: 30px 10px;
+h1,h2,h3,p,a {
 	font-family: comic sans ms;
+}
+a:hover  {
+	background-color: grey;
+	transition: 0.5s;
+}
+a:active {
+	background-color: black;
+	transition: 0.3s;
 }
